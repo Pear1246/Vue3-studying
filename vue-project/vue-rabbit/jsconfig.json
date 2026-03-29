@@ -1,0 +1,9 @@
+// 这个配置就只是一个路径联想提示
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
